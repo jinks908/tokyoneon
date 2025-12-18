@@ -19,7 +19,7 @@ hi BlinkCmpMenuBorder guibg=#d0d5e3 guifg=#4094a3
 hi BlinkCmpSignatureHelp guibg=#d0d5e3 guifg=#3760bf
 hi BlinkCmpSignatureHelpBorder guibg=#d0d5e3 guifg=#4094a3
 hi Bold gui=bold guibg=NONE guifg=#3760bf
-hi Character guibg=NONE guifg=#587539
+hi Character guibg=NONE guifg=#476734
 hi ColorColumn guibg=#b4b5b9
 hi Comment gui=italic guibg=NONE guifg=#848cb5
 hi ComplHint guibg=NONE guifg=#a1a6c5
@@ -75,7 +75,7 @@ hi GitGutterChangeLineNr guibg=NONE guifg=#506d9c
 hi GitGutterDelete guibg=NONE guifg=#c47981
 hi GitGutterDeleteLineNr guibg=NONE guifg=#c47981
 hi GlyphPalette1 guibg=NONE guifg=#c64343
-hi GlyphPalette2 guibg=NONE guifg=#587539
+hi GlyphPalette2 guibg=NONE guifg=#476734
 hi GlyphPalette3 guibg=NONE guifg=#8c6c3e
 hi GlyphPalette4 guibg=NONE guifg=#2e7de9
 hi GlyphPalette6 guibg=NONE guifg=#387068
@@ -117,7 +117,7 @@ hi MiniHipatternsTodo gui=bold guibg=#07879d guifg=#b4b5b9
 hi MiniIconsAzure guibg=NONE guifg=#07879d
 hi MiniIconsBlue guibg=NONE guifg=#2e7de9
 hi MiniIconsCyan guibg=NONE guifg=#118c74
-hi MiniIconsGreen guibg=NONE guifg=#587539
+hi MiniIconsGreen guibg=NONE guifg=#476734
 hi MiniIconsGrey guibg=NONE guifg=#3760bf
 hi MiniIconsOrange guibg=NONE guifg=#b15c00
 hi MiniIconsPurple guibg=NONE guifg=#7847bd
@@ -145,7 +145,7 @@ hi MiniStatuslineFileinfo guibg=#a8aecb guifg=#6172b0
 hi MiniStatuslineFilename guibg=#c4c8da guifg=#6172b0
 hi MiniStatuslineInactive guibg=#d0d5e3 guifg=#2e7de9
 hi MiniStatuslineModeCommand gui=bold guibg=#8c6c3e guifg=#b4b5b9
-hi MiniStatuslineModeInsert gui=bold guibg=#587539 guifg=#b4b5b9
+hi MiniStatuslineModeInsert gui=bold guibg=#476734 guifg=#b4b5b9
 hi MiniStatuslineModeNormal gui=bold guibg=#2e7de9 guifg=#b4b5b9
 hi MiniStatuslineModeOther gui=bold guibg=#118c74 guifg=#b4b5b9
 hi MiniStatuslineModeReplace gui=bold guibg=#f52a65 guifg=#b4b5b9
@@ -161,7 +161,7 @@ hi MiniTablineTabpagesection guibg=#a8aecb guifg=NONE
 hi MiniTablineVisible guibg=#d0d5e3 guifg=#3760bf
 hi MiniTestEmphasis gui=bold guibg=NONE
 hi MiniTestFail gui=bold guibg=NONE guifg=#f52a65
-hi MiniTestPass gui=bold guibg=NONE guifg=#587539
+hi MiniTestPass gui=bold guibg=NONE guifg=#476734
 hi MiniTrailspace guibg=#f52a65
 hi ModeMsg gui=bold guibg=NONE guifg=#6172b0
 hi MoreMsg guibg=NONE guifg=#2e7de9
@@ -183,7 +183,7 @@ hi NeotestFocused guibg=NONE guifg=#8c6c3e
 hi NeotestIndent guibg=NONE guifg=#6172b0
 hi NeotestMarked guibg=NONE guifg=#2e7de9
 hi NeotestNamespace guibg=NONE guifg=#38919f
-hi NeotestPassed guibg=NONE guifg=#587539
+hi NeotestPassed guibg=NONE guifg=#476734
 hi NeotestRunning guibg=NONE guifg=#8c6c3e
 hi NeotestSkipped guibg=NONE guifg=#2e7de9
 hi NeotestTarget guibg=NONE guifg=#2e7de9
@@ -218,7 +218,7 @@ hi SpellRare gui=undercurl guibg=NONE guisp=#118c74
 hi Statement guibg=NONE guifg=#9854f1
 hi StatusLine guibg=#d0d5e3 guifg=#6172b0
 hi StatusLineNC guibg=#d0d5e3 guifg=#a8aecb
-hi String guibg=NONE guifg=#587539
+hi String guibg=NONE guifg=#476734
 hi Substitute guibg=#f52a65 guifg=#b4b5b9
 hi TabLine guibg=#d0d5e3 guifg=#a8aecb
 hi TabLineFill guibg=#b4b5b9
@@ -231,7 +231,7 @@ hi VertSplit guibg=NONE guifg=#b4b5b9
 hi VimwikiHR guibg=NONE guifg=#8c6c3e
 hi VimwikiHeader1 gui=bold guibg=NONE guifg=#2e7de9
 hi VimwikiHeader2 gui=bold guibg=NONE guifg=#8c6c3e
-hi VimwikiHeader3 gui=bold guibg=NONE guifg=#587539
+hi VimwikiHeader3 gui=bold guibg=NONE guifg=#476734
 hi VimwikiHeader4 gui=bold guibg=NONE guifg=#118c74
 hi VimwikiHeader5 gui=bold guibg=NONE guifg=#9854f1
 hi VimwikiHeader6 gui=bold guibg=NONE guifg=#7847bd
@@ -241,7 +241,7 @@ hi VimwikiHeaderChar guibg=NONE guifg=#8c6c3e
 hi VimwikiLink guibg=NONE guifg=#2e7de9
 hi VimwikiList guibg=NONE guifg=#b15c00
 hi VimwikiMarkers guibg=NONE guifg=#2e7de9
-hi VimwikiTag guibg=NONE guifg=#587539
+hi VimwikiTag guibg=NONE guifg=#476734
 hi Visual guibg=#b7c1e3
 hi VisualNOS guibg=#b7c1e3
 hi WarningMsg guibg=NONE guifg=#8c6c3e

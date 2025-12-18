@@ -13,6 +13,6 @@ foreground-color='rgb(55, 96, 191)'
 highlight-background-color='rgb(55, 96, 191)'
 highlight-colors-set=true
 highlight-foreground-color='rgb(225, 226, 231)'
-palette=['rgb(161, 166, 197)', 'rgb(245, 42, 101)', 'rgb(88, 117, 57)', 'rgb(140, 108, 62)', 'rgb(46, 125, 233)', 'rgb(152, 84, 241)', 'rgb(0, 113, 151)', 'rgb(55, 96, 191)', 'rgb(161, 166, 197)', 'rgb(245, 42, 101)', 'rgb(88, 117, 57)', 'rgb(140, 108, 62)', 'rgb(46, 125, 233)', 'rgb(152, 84, 241)', 'rgb(0, 113, 151)', 'rgb(55, 96, 191)']
+palette=['rgb(161, 166, 197)', 'rgb(245, 42, 101)', 'rgb(71, 103, 52)', 'rgb(140, 108, 62)', 'rgb(46, 125, 233)', 'rgb(152, 84, 241)', 'rgb(0, 113, 151)', 'rgb(55, 96, 191)', 'rgb(161, 166, 197)', 'rgb(245, 42, 101)', 'rgb(71, 103, 52)', 'rgb(140, 108, 62)', 'rgb(46, 125, 233)', 'rgb(152, 84, 241)', 'rgb(0, 113, 151)', 'rgb(55, 96, 191)']
 use-theme-colors=false
 visible-name='Tokyo Night Day'

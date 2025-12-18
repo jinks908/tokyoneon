@@ -14,13 +14,13 @@ style:
     fgColor: '#7aa2f7'
     fgWarning: '#e0af68'
     fgPending: '#545c7e'
-    fgCompleted: '#9ece6a'
+    fgCompleted: '#a6e87d'
     fgError: '#db4b4b'
     headerFgColor: '#c0caf5'
   help:
     fgColor: '#2ac3de'
     keyColor: '#c0caf5'
-    hlColor: '#9ece6a'
+    hlColor: '#a6e87d'
     categoryFgColor: '#89ddff'
   dialog:
     fgColor: '#2ac3de'

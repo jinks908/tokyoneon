@@ -30,7 +30,7 @@
   --background-modifier-selected: #8990b332;
   --background-modifier-accent: #8990b342;
   --background-modifier-active: #8990b32B;
-  --info-positive-background: #58753926;
+  --info-positive-background: #47673426;
   --info-positive-foreground: #118c74;
   --info-positive-text: #3760bf;
   --brand-500: #7890dd;
@@ -107,12 +107,12 @@
   --button-outline-positive-text: #3760bf;
   --button-outline-positive-border: #118c74;
   --button-outline-positive-background: transparent;
-  --button-outline-positive-background-hover: #587539;
+  --button-outline-positive-background-hover: #476734;
   --button-outline-positive-text-hover: #e1e2e7;
-  --button-outline-positive-border-hover: #587539;
+  --button-outline-positive-border-hover: #476734;
   --button-outline-positive-background-active: #387068;
   --button-outline-positive-text-active: #e1e2e7;
-  --button-outline-positive-border-active: #587539;
+  --button-outline-positive-border-active: #476734;
   --button-outline-brand-text: #3760bf;
   --button-outline-brand-border: #2e7de9;
   --button-outline-brand-background: transparent;
@@ -209,7 +209,7 @@ rect[mask="url(#svg-mask-status-offline)"] {
   --color-1: #f52a65;
   --color-2: #b15c00;
   --color-3: #8c6c3e;
-  --color-4: #587539;
+  --color-4: #476734;
   --color-5: #387068;
   --color-6: #2e5857;
   --color-7: #07879d;

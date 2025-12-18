@@ -43,7 +43,7 @@ local colors = {
     delete = "#c47981",
     ignore = "#8990b3"
   },
-  green = "#587539",
+  green = "#476734",
   green1 = "#387068",
   green2 = "#38919f",
   hint = "#118c74",
@@ -53,7 +53,7 @@ local colors = {
   none = "NONE",
   orange = "#b15c00",
   purple = "#7847bd",
-  rainbow = { "#2e7de9", "#8c6c3e", "#587539", "#118c74", "#9854f1", "#7847bd", "#b15c00", "#f52a65" },
+  rainbow = { "#2e7de9", "#8c6c3e", "#476734", "#118c74", "#9854f1", "#7847bd", "#b15c00", "#f52a65" },
   red = "#f52a65",
   red1 = "#c64343",
   teal = "#118c74",
@@ -64,8 +64,8 @@ local colors = {
     blue_bright = "#358aff",
     cyan = "#007197",
     cyan_bright = "#007ea8",
-    green = "#587539",
-    green_bright = "#5c8524",
+    green = "#476734",
+    green_bright = "#487724",
     magenta = "#9854f1",
     magenta_bright = "#a463ff",
     red = "#f52a65",
@@ -205,34 +205,42 @@ local highlights = {
   ["@markup.environment.name"] = "Type",
   ["@markup.heading"] = "Title",
   ["@markup.heading.1.markdown"] = {
+    bg = "#cfd8e7",
     bold = true,
     fg = "#2e7de9"
   },
   ["@markup.heading.2.markdown"] = {
+    bg = "#d9d6d6",
     bold = true,
     fg = "#8c6c3e"
   },
   ["@markup.heading.3.markdown"] = {
+    bg = "#d2d6d5",
     bold = true,
-    fg = "#587539"
+    fg = "#476734"
   },
   ["@markup.heading.4.markdown"] = {
+    bg = "#ccd9dc",
     bold = true,
     fg = "#118c74"
   },
   ["@markup.heading.5.markdown"] = {
+    bg = "#dad4e8",
     bold = true,
     fg = "#9854f1"
   },
   ["@markup.heading.6.markdown"] = {
+    bg = "#d7d3e3",
     bold = true,
     fg = "#7847bd"
   },
   ["@markup.heading.7.markdown"] = {
+    bg = "#dcd5d0",
     bold = true,
     fg = "#b15c00"
   },
   ["@markup.heading.8.markdown"] = {
+    bg = "#e3d0da",
     bold = true,
     fg = "#f52a65"
   },
@@ -507,6 +515,18 @@ local highlights = {
     bg = "#a8aecb",
     fg = "#3760bf"
   },
+  BufferAlternateADDED = {
+    bg = "#a8aecb",
+    fg = "#4197a4"
+  },
+  BufferAlternateCHANGED = {
+    bg = "#a8aecb",
+    fg = "#506d9c"
+  },
+  BufferAlternateDELETED = {
+    bg = "#a8aecb",
+    fg = "#c47981"
+  },
   BufferAlternateERROR = {
     bg = "#a8aecb",
     fg = "#c64343"
@@ -543,6 +563,18 @@ local highlights = {
     bg = "#e1e2e7",
     fg = "#3760bf"
   },
+  BufferCurrentADDED = {
+    bg = "#e1e2e7",
+    fg = "#4197a4"
+  },
+  BufferCurrentCHANGED = {
+    bg = "#e1e2e7",
+    fg = "#506d9c"
+  },
+  BufferCurrentDELETED = {
+    bg = "#e1e2e7",
+    fg = "#c47981"
+  },
   BufferCurrentERROR = {
     bg = "#e1e2e7",
     fg = "#c64343"
@@ -578,6 +610,18 @@ local highlights = {
   BufferInactive = {
     bg = "#d5d8e2",
     fg = "#8087a9"
+  },
+  BufferInactiveADDED = {
+    bg = "#d5d8e2",
+    fg = "#61a6b1"
+  },
+  BufferInactiveCHANGED = {
+    bg = "#d5d8e2",
+    fg = "#6d84ab"
+  },
+  BufferInactiveDELETED = {
+    bg = "#d5d8e2",
+    fg = "#ca8e95"
   },
   BufferInactiveERROR = {
     bg = "#d5d8e2",
@@ -630,6 +674,18 @@ local highlights = {
     bg = "#d0d5e3",
     fg = "#3760bf"
   },
+  BufferVisibleADDED = {
+    bg = "#d0d5e3",
+    fg = "#4197a4"
+  },
+  BufferVisibleCHANGED = {
+    bg = "#d0d5e3",
+    fg = "#506d9c"
+  },
+  BufferVisibleDELETED = {
+    bg = "#d0d5e3",
+    fg = "#c47981"
+  },
   BufferVisibleERROR = {
     bg = "#d0d5e3",
     fg = "#c64343"
@@ -663,7 +719,7 @@ local highlights = {
     fg = "#8c6c3e"
   },
   Character = {
-    fg = "#587539"
+    fg = "#476734"
   },
   CmpDocumentation = {
     bg = "#d0d5e3",
@@ -1020,7 +1076,7 @@ local highlights = {
     fg = "#c64343"
   },
   GlyphPalette2 = {
-    fg = "#587539"
+    fg = "#476734"
   },
   GlyphPalette3 = {
     fg = "#8c6c3e"
@@ -1076,7 +1132,7 @@ local highlights = {
     bg = "#dddcdf"
   },
   Headline3 = {
-    bg = "#daddde"
+    bg = "#d9dcde"
   },
   Headline4 = {
     bg = "#d7dee1"
@@ -1257,7 +1313,7 @@ local highlights = {
     fg = "#188092"
   },
   LspSagaDefPreviewBorder = {
-    fg = "#587539"
+    fg = "#476734"
   },
   LspSagaFinderSelection = {
     fg = "#b7c1e3"
@@ -1266,7 +1322,7 @@ local highlights = {
     fg = "#2e7de9"
   },
   LspSagaRenameBorder = {
-    fg = "#587539"
+    fg = "#476734"
   },
   LspSagaSignatureHelpBorder = {
     fg = "#f52a65"
@@ -1373,7 +1429,7 @@ local highlights = {
     fg = "#118c74"
   },
   MiniIconsGreen = {
-    fg = "#587539"
+    fg = "#476734"
   },
   MiniIconsGrey = {
     fg = "#3760bf"
@@ -1496,7 +1552,7 @@ local highlights = {
     fg = "#b4b5b9"
   },
   MiniStatuslineModeInsert = {
-    bg = "#587539",
+    bg = "#476734",
     bold = true,
     fg = "#b4b5b9"
   },
@@ -1564,7 +1620,7 @@ local highlights = {
   },
   MiniTestPass = {
     bold = true,
-    fg = "#587539"
+    fg = "#476734"
   },
   MiniTrailspace = {
     bg = "#f52a65"
@@ -1719,7 +1775,7 @@ local highlights = {
     fg = "#38919f"
   },
   NeotestPassed = {
-    fg = "#587539"
+    fg = "#476734"
   },
   NeotestRunning = {
     fg = "#8c6c3e"
@@ -1995,7 +2051,7 @@ local highlights = {
     fg = "#007197"
   },
   RainbowDelimiterGreen = {
-    fg = "#587539"
+    fg = "#476734"
   },
   RainbowDelimiterOrange = {
     fg = "#b15c00"
@@ -2040,11 +2096,11 @@ local highlights = {
     fg = "#8c6c3e"
   },
   RenderMarkdownH3Bg = {
-    bg = "#d3d7d6"
+    bg = "#d2d6d5"
   },
   RenderMarkdownH3Fg = {
     bold = true,
-    fg = "#587539"
+    fg = "#476734"
   },
   RenderMarkdownH4Bg = {
     bg = "#ccd9dc"
@@ -2184,6 +2240,16 @@ local highlights = {
   SnacksDashboardSpecial = {
     fg = "#7847bd"
   },
+  SnacksFooterDesc = "SnacksProfilerBadgeInfo",
+  SnacksFooterKey = "SnacksProfilerIconInfo",
+  SnacksGhDiffHeader = {
+    bg = "#cdd8df",
+    fg = "#188092"
+  },
+  SnacksGhLabel = {
+    bold = true,
+    fg = "#188092"
+  },
   SnacksIndent = {
     fg = "#a8aecb",
     nocombine = true
@@ -2197,7 +2263,7 @@ local highlights = {
     nocombine = true
   },
   SnacksIndent3 = {
-    fg = "#587539",
+    fg = "#476734",
     nocombine = true
   },
   SnacksIndent4 = {
@@ -2345,8 +2411,6 @@ local highlights = {
     bg = "#c9d0e2",
     fg = "#8990b3"
   },
-  SnacksScratchDesc = "SnacksProfilerBadgeInfo",
-  SnacksScratchKey = "SnacksProfilerIconInfo",
   SnacksZenIcon = {
     fg = "#7847bd"
   },
@@ -2391,7 +2455,7 @@ local highlights = {
     fg = "#a8aecb"
   },
   String = {
-    fg = "#587539"
+    fg = "#476734"
   },
   Substitute = {
     bg = "#f52a65",
@@ -2481,7 +2545,7 @@ local highlights = {
   VimwikiHeader3 = {
     bg = "NONE",
     bold = true,
-    fg = "#587539"
+    fg = "#476734"
   },
   VimwikiHeader4 = {
     bg = "NONE",
@@ -2526,7 +2590,7 @@ local highlights = {
   },
   VimwikiTag = {
     bg = "NONE",
-    fg = "#587539"
+    fg = "#476734"
   },
   Visual = {
     bg = "#b7c1e3"

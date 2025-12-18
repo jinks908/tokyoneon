@@ -31,7 +31,7 @@ module.exports =  {
     {
       types: ["string", "char", "tag", "selector"],
       style: {
-        color: "#587539",
+        color: "#476734",
       },
     },
     {

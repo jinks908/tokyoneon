@@ -4,7 +4,7 @@ comment = { fg = "#848cb5", modifiers = ["italic"] }
 constant = { fg = "#b15c00" }
 "constant.builtin" = { fg = "#188092" }
 "constant.builtin.boolean" = { fg = "#b15c00" }
-"constant.character" = { fg = "#587539" }
+"constant.character" = { fg = "#476734" }
 "constant.character.escape" = { fg = "#9854f1" }
 "constant.numeric" = { fg = "#b15c00" }
 "constant.numeric.float" = { fg = "#b15c00" }
@@ -48,13 +48,13 @@ label = { fg = "#2e7de9" }
 "markup.list" = { fg = "#006a83" }
 "markup.normal.completion" = { fg = "#848cb5" }
 "markup.normal.hover" = { fg = "#6172b0" }
-"markup.raw" = { fg = "#587539" }
+"markup.raw" = { fg = "#476734" }
 "markup.raw.inline" = { bg = "#a1a6c5", fg = "#2e7de9" }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
 namespace = { fg = "#007197" }
 operator = { fg = "#006a83" }
 special = { fg = "#188092" }
-string = { fg = "#587539" }
+string = { fg = "#476734" }
 "string.regexp" = { fg = "#2e5857" }
 "string.special" = { fg = "#188092" }
 tag = { fg = "#9854f1" }
@@ -63,6 +63,7 @@ type = { fg = "#188092" }
 "type.enum" = { fg = "#188092" }
 "type.enum.variant" = { fg = "#b15c00" }
 "ui.background" = { bg = "bg" }
+"ui.bufferline.active" = { bg = "bg_visual", fg = "fg" }
 "ui.cursor" = { bg = "#3760bf", fg = "#e1e2e7" }
 "ui.cursor.match" = { fg = "#b15c00", modifiers = ["bold"] }
 "ui.linenr" = { fg = "#a8aecb" }
@@ -126,7 +127,7 @@ fg_sidebar = "#6172b0"
 "git.change" = "#506d9c"
 "git.delete" = "#c47981"
 "git.ignore" = "#8990b3"
-green = "#587539"
+green = "#476734"
 green1 = "#387068"
 green2 = "#38919f"
 hint = "#118c74"
@@ -137,7 +138,7 @@ orange = "#b15c00"
 purple = "#7847bd"
 rainbow = "#2e7de9"
 "rainbow.2" = "#8c6c3e"
-"rainbow.3" = "#587539"
+"rainbow.3" = "#476734"
 "rainbow.4" = "#118c74"
 "rainbow.5" = "#9854f1"
 "rainbow.6" = "#7847bd"
@@ -152,8 +153,8 @@ teal = "#118c74"
 "terminal.blue_bright" = "#358aff"
 "terminal.cyan" = "#007197"
 "terminal.cyan_bright" = "#007ea8"
-"terminal.green" = "#587539"
-"terminal.green_bright" = "#5c8524"
+"terminal.green" = "#476734"
+"terminal.green_bright" = "#487724"
 "terminal.magenta" = "#9854f1"
 "terminal.magenta_bright" = "#a463ff"
 "terminal.red" = "#f52a65"
