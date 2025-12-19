@@ -1232,13 +1232,13 @@ local highlights = {
     fg = "#c0caf5"
   },
   LineNr = {
-    fg = "#3b4261"
+    fg = "#586e98"
   },
   LineNrAbove = {
-    fg = "#3b4261"
+    fg = "#586e98"
   },
   LineNrBelow = {
-    fg = "#3b4261"
+    fg = "#586e98"
   },
   LspCodeLens = {
     fg = "#565f89"
